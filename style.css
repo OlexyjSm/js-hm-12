@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+    width: 1440px;
+}
+header { 
+    padding: 29px 0 0 0;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .logo {
+    width: 160px;
+    height: 36px;
+  }
+  
+  nav {
+    margin: 0 0 0 184px;
+    padding: 0 0 0 20px;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 736px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 736px;
+    display: flex;
+  justify-content: center;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+.vector {
+    margin-left: 260px;
+    
+}
+.avatar {
+    padding-left: 6px;
+    cursor: pointer;
+}
+.cart {
+    padding-left: 6px;
+    cursor: pointer;
+}
+.container {
+    background-image: url(img/first_img.png);
+    height: 810px;
+  }
+  
+.main_text {
+    position: absolute;
+    width: 511px;
+    height: 51px;
+    margin: 53px 0 0 464px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.container p {
+    position: absolute;
+    width: 537px;
+    height: 19px;
+    margin: 118px 0 0 449px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+.revs, .boards{
+    position: absolute;
+    width: 201px;
+    height: 33px;
+    margin: 159px 0 0 513px;
+    color: #ffffff;
+    border-radius: 35px;
+    background: rgb(255, 74, 50);
+}
+.boards {
+    margin-left:  726px;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+.second_container {
+  background-image: url(img/second_img.png);
+  height: 720px;
+}
+.text {
+  position: absolute;
+  color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 400;
+width: 143px;
+height: 19px;
+margin: 44px 0 0 648px;
+}
+.second_main_text {
+  position: absolute;
+  color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-size: 28px;
+font-weight: 700;
+width: 420px;
+height: 51px;
+margin: 74px 0 0 513px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.last_text {
+position: absolute;
+display: flex;
+text-align: center;
+width: 488px;
+height: 38px;
+color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+font-weight: 400;
+margin: 140px 0 0 476px;
+
+}
+.Shop_Now {
+  position: absolute;
+  width: 201px;
+  height: 33px;
+  margin: 198px 0 0 619px;
+  color: #ffffff;
+  border-radius: 35px;
+  background: rgb(255, 74, 50);
+}
